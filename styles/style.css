@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    border: 1px grey solid;
+    margin: 0px auto;
+}
+.topbar{
+    height: 30px;
+    background-color: #009db6;
+    color: white;
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+   margin-top: 70px;
+}
+.menu ul li{
+    margin-top: 50px;
+    list-style-type: none;
+    display: inline;
+    padding-left: 50px;
+}
+.ul{
+    float: left;
+    margin-top: 50px;
+}
+.menu{
+    width: 75%;
+    height: auto;
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+    transform: translate(20%);
+}
+a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+a:hover{
+    color: white;
+    background-color: #009db6;
+    border-radius: 13px;
+}
+
+.banner{
+     background-image: url("../images/college\ photo.jpg");
+     height: 600px;
+     background-size: 100% 100%;
+     clear: left;
+}
+.logo{
+    width: 20px;
+}
+.content{
+    padding-top: 10px;
+    clear: both;
+    margin: 5px auto;
+    overflow: auto;
+}
+.col{
+    width: 33%;
+    border: 1px #009db6 solid;
+    height: 300px;
+    float: left;
+    margin: 2px;
+    border: 2px #009db6 solid;
+}
+h2{
+    background-color: #009db6;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+}
+.gallery{
+    clear: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 316px;
+    border-radius: 15px;
+    
+    
+}
+.scr{
+    width: 200px;
+} 
+.box1{
+    text-align: center;
+}
+.box2{
+    text-align: center;
+}
+.box3{
+    text-align: center;  
+}
+.box6{
+    background-image: url("/images/certificate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+}
+.footer1 ul li{
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: 400px;
+}
+.leg{
+    padding-left: 10px;
+}
+.leg p{
+   padding: 0px, 300px, 0px, 0px;     
+}
+.footer2{
+    padding-top: 10px;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
